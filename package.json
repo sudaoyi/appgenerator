@@ -1,0 +1,18 @@
+{
+  "name": "appgenerator",
+  "version": "0.0.1",
+  "description": "app generator",
+  "main": "mn.js",
+  "bin": {
+    "appgenerator": "./bin/appgenerator.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app",
+    "generator"
+  ],
+  "author": "sudaoyi",
+  "license": "ISC"
+}
