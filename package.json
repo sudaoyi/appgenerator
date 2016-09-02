@@ -1,7 +1,7 @@
 {
   "name": "appgenerator",
-  "version": "0.0.1",
-  "description": "app generator",
+  "version": "0.1.0",
+  "description": "easily to setup the node develop envirment",
   "main": "mn.js",
   "bin": {
     "appgenerator": "./bin/appgenerator.js"

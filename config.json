@@ -1,0 +1,1 @@
+{"dirlist":["bin","doc","test","model","views"],"filelist":["app.js","views/header/index.html"],"npmlist":{"save":["express","nunjucks"],"save-dev":["webpack","webpack-dev-server","json-loader"]}}

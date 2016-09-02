@@ -14,9 +14,23 @@ Make sure you have installed npm
 2.If you want to set up many devlepment environment 
     
         appgenerator [dir1] [dir2] [dir3]
-*These environment is same **except** package.json*
+ These environment is same *except* package.json
+
+### Advanced Usage
+
+   You can custom the config.json file  in current directory or parent directory.
+
+#### For Example
+    //config.json
+    {"dirlist":["bin","doc","test","model","views"],
+    "filelist":["app.js","views/header/index.html"],
+    "npmlist":{"save":["express","nunjucks"],
+              "save-dev":["webpack","webpack-dev-server","json-loader"]
+              }
+    }
 
 
+  
 
 ### License
 

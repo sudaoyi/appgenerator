@@ -14,7 +14,7 @@ var mkdir = function (dir) {
 
 var touch = function (file) {
 	var fileObj = path.parse(file);
-    var supDir=process.cwd();
+    var supDir = process.cwd();
 	if (fileObj.dir) {
 		try { execSync('mkdir -p ' + fileObj.dir) } catch (e) { console.log(e, file + ' fail to touch file'); return };
 		try { process.chdir('./' + fileObj.dir) } catch (e) { console.log(e, file + ' fail to touch file'); return };
