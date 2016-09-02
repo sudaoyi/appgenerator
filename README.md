@@ -5,6 +5,9 @@
 Make sure you have installed npm
 
         npm install appgenerator -g 
+        
+        or sudo npm install appgenerator -g 
+**can't run at win platform**
 
 ### Usage
 
