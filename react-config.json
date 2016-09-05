@@ -1,0 +1,6 @@
+{"dirlist":["test"],
+"filelist":["app.js","index.html","main.js","webpack.config.js"],
+"npmlist":{"save":["react","react-dom"],
+          "save-dev":["webpack","webpack-dev-server","json-loader","babel-loader","babel-core","babel-preset-es2015","babel-preset-react"]
+          }
+}
